@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  sitemap.xml — Dra. Auanny Alfaia
+  https://auannyalfaia.com.br/
+
+  O site atual é uma página única (one-page) com seções por âncora
+  (#sobre, #tratamentos, #resultados etc.). Âncoras de uma mesma
+  página NÃO devem ser listadas como URLs separadas em um sitemap
+  — todas resolvem para o mesmo documento HTML. Por isso há apenas
+  uma entrada abaixo. Se páginas próprias forem criadas no futuro
+  (ex.: /tratamentos/, /blog/), adicione uma nova <url> para cada
+  uma delas, com seu próprio <loc> e <lastmod>.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://auannyalfaia.com.br/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

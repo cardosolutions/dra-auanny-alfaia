@@ -1,0 +1,12 @@
+# robots.txt — Dra. Auanny Alfaia
+# https://auannyalfaia.com.br/
+#
+# Libera o rastreamento de todo o conteúdo público do site
+# (páginas, CSS, JavaScript e imagens). Nenhuma página
+# administrativa, de teste ou duplicada existe neste projeto,
+# portanto não há necessidade de bloquear nenhum caminho.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://auannyalfaia.com.br/sitemap.xml
