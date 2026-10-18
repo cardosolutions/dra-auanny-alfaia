@@ -1087,3 +1087,14 @@ svg { display: block; fill: none; stroke: currentColor; }
   .hero-title { font-size: 2.5rem; }
   .btn { padding: 14px 22px; font-size: 0.9rem; }
 }
+
+/* Resultado em formato horizontal: ocupa as duas colunas do grid */
+.result-item.result-wide {
+  grid-column: 1 / -1;
+  max-width: 860px;
+  width: 100%;
+  margin-inline: auto;
+}
+.result-item.result-wide .compare {
+  aspect-ratio: 828 / 395;
+}
